@@ -29,13 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot: Desktop](screenshot-desktop.jpg)
-![Screenshot: Mobile](screenshot-mobile.jpg)
+![Screenshot: Desktop](screenshot-desktop.png)
+![Screenshot: Mobile](screenshot-mobile.png)
 
 ### Links
 
 - Solution URL: [https://github.com/franziskawich/base-apparel-coming-soon](https://github.com/franziskawich/base-apparel-coming-soon)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://franziskawich.github.io/base-apparel-coming-soon/](https://franziskawich.github.io/base-apparel-coming-soon/)
 
 ## My process
 
