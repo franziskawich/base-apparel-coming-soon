@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 10 version
+*/
+
 :root {
   --clr-primary-light: hsl(0, 36%, 70%);
   --clr-primary-strong: hsl(0, 93%, 68%);
@@ -7,7 +14,8 @@
 *,
 *::after,
 *::before {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 h1,
@@ -44,7 +52,8 @@ p {
 }
 
 body {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 0.9rem;
 }
@@ -52,6 +61,30 @@ body {
 input {
   font-family: inherit;
   font-size: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: var(--clr-primary-light);
+  opacity: 0.7;
+  font-weight: 300;
+}
+
+::-moz-placeholder {
+  color: var(--clr-primary-light);
+  opacity: 0.7;
+  font-weight: 300;
+}
+
+:-ms-input-placeholder {
+  color: var(--clr-primary-light);
+  opacity: 0.7;
+  font-weight: 300;
+}
+
+::-ms-input-placeholder {
+  color: var(--clr-primary-light);
+  opacity: 0.7;
+  font-weight: 300;
 }
 
 ::placeholder {
@@ -70,6 +103,8 @@ input {
 }
 
 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -91,6 +126,8 @@ input {
 }
 @media (min-width: 37.5em) {
   .coming-soon {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 }
@@ -126,9 +163,13 @@ input {
 }
 @media (min-width: 23.5em) {
   .coming-soon__content {
-    order: -1;
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
     max-width: 24.375rem;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
 }
 .coming-soon__title {
@@ -172,9 +213,11 @@ input {
   cursor: pointer;
   border-radius: 2rem;
   padding: 0.925rem 1.5rem;
+  background: -o-linear-gradient(315deg, #f8bfbf, #ee8c8c);
   background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
   margin-left: -50px;
-  box-shadow: #edc9c9 0 0.8rem 1.5rem;
+  -webkit-box-shadow: #edc9c9 0 0.8rem 1.5rem;
+          box-shadow: #edc9c9 0 0.8rem 1.5rem;
 }
 @media (min-width: 23.5em) {
   .email__btn {
@@ -183,7 +226,8 @@ input {
 }
 .email__btn:hover {
   background: #f8bfbf;
-  box-shadow: #d7a2a2 0 0.8rem 1.5rem;
+  -webkit-box-shadow: #d7a2a2 0 0.8rem 1.5rem;
+          box-shadow: #d7a2a2 0 0.8rem 1.5rem;
 }
 .email__invalid-img {
   position: absolute;
@@ -208,7 +252,8 @@ input {
 }
 .attribution__link {
   color: var(--clr-neutral);
-  text-decoration-style: dashed;
+  -webkit-text-decoration-style: dashed;
+          text-decoration-style: dashed;
 }
 .attribution__link:hover {
   text-decoration: underline;
