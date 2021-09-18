@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <header class="header">
+      <img class="header__logo" src="images/logo.svg" alt="logo of base apparel" />
+    </header>
+
+    <main>
+      <section class="coming-soon">
+        <picture class="coming-soon__img">
+          <source media="(max-width: 375px)" srcset="images/hero-mobile.jpg" />
+          <source media="(min-width: 376px)" srcset="images/hero-desktop.jpg" />
+          <img
+            src="images/hero-mobile.jpg"
+            alt="woman with long hair and slightly raised arm standing in front of a plant"
+          />
+        </picture>
+        <div class="coming-soon__content">
+          <img class="coming-soon__logo" src="images/logo.svg" alt="logo of base apparel" />
+          <h1 class="coming-soon__title"><span class="highlight">We're</span> coming soon</h1>
+          <p class="coming-soon__text">
+            Hello fellow shoppers! We're currently building our new fashion store. Add your email
+            below to stay up-to-date with announcements and our launch deals.
+          </p>
+
+          <form class="email" action="#0">
+            <ul class="email__list flex">
+              <li class="email__list-item">
+                <input
+                  class="email__input"
+                  type="email"
+                  placeholder="Email Address"
+                  name="email"
+                  aria-label="Your email address"
+                />
+              </li>
+              <li>
+                <button type="submit" class="email__btn" aria-label="Submit">
+                  <img class="email__btn-img" src="images/icon-arrow.svg" alt="" />
+                </button>
+                <img class="email__invalid-img hidden" src="images/icon-error.svg" alt="" />
+              </li>
+            </ul>
+            <p class="invalid hidden">Please provide a valid email</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      <p>
+        Challenge by
+        <a
+          class="attribution__link"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >.
+      </p>
+      <p>
+        Coded by
+        <a class="attribution__link" href="https://www.frontendmentor.io/profile/franziskawich"
+          >Franziska Wich</a
+        >.
+      </p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
