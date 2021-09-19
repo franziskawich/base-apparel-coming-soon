@@ -231,7 +231,7 @@ input {
 }
 .email__invalid-img {
   position: absolute;
-  top: 15%;
+  top: 0.75rem;
   right: 5.25rem;
 }
 
