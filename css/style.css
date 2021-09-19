@@ -237,7 +237,7 @@ input {
 
 .invalid {
   text-align: left;
-  margin: 0.75rem 0 0 1.4rem;
+  margin: 0.75rem 0 0 1.6rem;
   color: var(--clr-primary-strong);
 }
 
