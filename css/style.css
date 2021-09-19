@@ -169,7 +169,7 @@ input {
   margin: 0 auto;
 }
 
-@media (min-width: 23.5em) {
+@media (min-width: 43.75em) {
   .coming-soon__content {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
