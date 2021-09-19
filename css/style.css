@@ -25,7 +25,7 @@ body {
   margin: 0;
   text-align: center;
 }
-@media (min-width: 23.5em) {
+@media (min-width: 37.5em) {
   h1,
   h2,
   p,
@@ -111,7 +111,7 @@ input {
 .header {
   padding: 2rem;
 }
-@media (min-width: 23.5em) {
+@media (min-width: 37.5em) {
   .header {
     display: none;
   }
@@ -124,7 +124,7 @@ input {
   max-width: 85rem;
   margin: 0 auto;
 }
-@media (min-width: 37.5em) {
+@media (min-width: 43.75em) {
   .coming-soon {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -156,11 +156,19 @@ input {
 .coming-soon__img {
   max-width: 42%;
 }
+
+@media (min-width: 23.4375em) and (max-width: 43.75em) {
+  .coming-soon__img img {
+     margin: 1em auto 0;
+  }
+}
+
 .coming-soon__content {
   padding: 4rem 0;
   width: 85%;
   margin: 0 auto;
 }
+
 @media (min-width: 23.5em) {
   .coming-soon__content {
     -webkit-box-ordinal-group: 0;
