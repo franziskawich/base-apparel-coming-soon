@@ -58,6 +58,8 @@ When typing a longer email address in the input field on a smaller device, the t
 
 I am not so happy with the layout between 600px and 740px, I don't like the position of the image. That could definitly be improved. I notice that I quite often struggle with the tablet layouts to make them look reasonably appealing.
 
+(**Update:** I've changed the layout, it looks a bit better now. 🙂)
+
 I only included the background image for larger display sizes, otherwise it always looked weird. There is probably a way to embed the background image so that it looks perfect on every display, but I haven't figured it out today.
 
 For larger screens, I removed my header image and added it to the main content instead to achieve the desired layout. Although it worked well, it feels wrong somehow. There is probably a more effient way to do that too.
